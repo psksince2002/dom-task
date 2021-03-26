@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous"
+      />
+    <link rel="stylesheet" href="mock11.css">
+   
+  </head>
+  <body>
+    <div class="fosterate-heading-bg" >
+      <h1 class="fosterate-heading" >Fosterate</h1>
+  </div>
+  <ul class="nav-list">
+    <li class="nav-list-item nav-active" id="home">
+      <span class="home" >HOME</span>
+        </li>
+      <li class="nav-list-item" id="add">
+         <span class="add">+ADD</span>
+         </li>
+    <img src="blog-icon.png" alt="" class="blog-icon" >
+  </ul>
+  <p class="contacts-heading" >CONTACTS</p>
+     <div  class="body-row">
+       
+       <div class="contact-list-holder" >
+        <ul class="contact-list" id="contact-list" >
+          <ul class="contact-list-item active-list">
+            <li class="name" id="name" >Harsha Vardhan Pendyala</li>
+            <li class="mail-number" id="number">7777888855</li>
+            <li class="mail-number" id="mail">harsha@fosterate.com</li>
+          </ul>
+          <ul class="contact-list-item " id="contact-list-item">
+            <li class="name" id="name" >Network Duke</li>
+            <li class="mail-number" id="number">7777888855</li>
+            <li class="mail-number" id="mail">duke@fosterate.com</li>
+          </ul>
+          <ul class="contact-list-item">
+            <li class="name" id="name">Arshaque Mohammed</li>
+            <li class="mail-number" id="number">7777888855</li>
+            <li class="mail-number"  id="mail">arshaque@fosterate.com</li>
+          </ul>
+        </ul>
+        </div>
+        <ul class="-data-list" id="datalist" >
+          <li class="-name" id="-name" >Harsha Vardhan Pendyala</li>
+          <li class="-info" >Email: <span class="-info" id="-email">harsha@fosterate.com</span></li>
+          <li class="-info">Mobile: <span class="-info" id="-mobile">7777888855</span></li>
+          <li class="-landline-website" >Landline: <span class="-landline-website" id="-landline"></span></li>
+          <li class="-landline-website" >Website: <span class="-landline-website" id="-website"></span></li>
+          <li class="-address">Address: <span class="-address" id="-address1">Hyderabad,</span><br><span class="left-space" id="-address2">Telangana,</span><br><span class="left-space" id="-address3">500061,</span></li>
+          <!--<li class="-state-pincode"><span >Telangana,</span></li>
+          <li class="-state-pincode"><span >500061,</span></li>-->
+        </ul>
+       <div class="icon-list" id="iconlist">
+        <div class="edit-part" >
+          <img src="Edit-icon.png" alt="" class="edit-img" >
+          <span class="-label"  id="edit">EDIT</span>
+        </div>
+        <div class="delete-part" >
+          <img src="delete2.png" alt="" class="delete-img" >
+          <span class="-label" id="delete">DELETE</span>
+        </div>
+       </div>
+     </div>
+     <div class="form-container" id="form-container">
+     <form action="" class="" id="form"  >
+       <label  class="label" for="input-name">Name<span  class="imp" >*</span></label><br>
+       <input type="text" class="input" id="input-name"><br>
+       <label class="label" for="input-mail">Email<span class="imp">*</span></label><br>
+       <input type="mail" class="input" id="input-mail"><br>
+       <div class="mobile">
+         <label for="input-mobile" class="label">Mobile<span class="imp">*</span></label><br>
+         <input type="number" class="input-contact" id="input-mobile"><br>
+       </div>
+       <div class="landline">
+         <label for="input-landline" class="label">Landline</label><br>
+         <input type="number" class="input-contact" id="input-landline"><br>
+      </div>
+      <br>
+       <div class="website">
+       <label for="input-website" class="label">Website</label><br>
+       <input type="text" class="input" id="input-website"><br>
+      </div>
+      <div class="address">
+        <label for="address" class="label">Address</label><br>
+        <textarea rows="4" cols="54" id="address"></textarea>
+      </div>
+      <button class="add-button" type="button" id="addbutton" onclick="afterAdd()" >Add</button>
+      <button class="edit-button" type="button" id="editbutton" onclick="afterEdit()">Edit</button>
+     </form>
+    </div>
+     <script src="mock.js"></script>
+  </body>
+</html>
